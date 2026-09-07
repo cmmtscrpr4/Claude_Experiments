@@ -89,14 +89,13 @@ Two deliberate asymmetries:
 
 ### What gets recorded per case
 
-Quality comes from the checklist. Everything else is typed by hand into
-`.study/metrics.yaml`, and a blank is always better than a guess:
+Quality comes from the checklist:
 
-setup effort (1–10, subjective) · token-limit share · wall clock · peak context in
-tokens and as a share of the window · total tokens across main thread and
-subagents · lines of code delivered · which subagents fired and their context
-share · clarifying questions asked before work began · model and Claude Code
-version.
+- setup effort (1–10, subjective) 
+- test cases passed
+- token-limit share 
+- time taken 
+- context window share
 
 ### The one thing nothing fixed
 
